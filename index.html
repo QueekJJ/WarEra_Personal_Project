@@ -1,12 +1,40 @@
 <!DOCTYPE HTML>
 <html>
-    <head>
-        <title> WarEra Calculator </title>
-        <!--Links to css sheet-->
-        <link rel= "stylsheet" hred = "js/style.html"></link>
-    </head>
 
-    <body>
-        <p> Testing </p>
-    </body>
+<head>
+    <title> WarEra Calculator </title>
+    <!--Links to css sheet-->
+    <link rel="stylsheet" href="js/style.html">
+    </link>
+</head>
+
+<body>
+    <div id="widget-box">
+        <form id = "calculator">
+            <!--'Label' for accessibility-->
+            <label for="Resource Type">Resource Type: </label> 
+            <input type = "text" id="r_type"> <br>
+
+            <label for="Resource Price">Resource Price: </label> 
+            <input type = "text" id="r_price"> <br>
+
+            <label for="Production Bonus">Production Bonus: </label> 
+            <input type = "text" id="p_bonus"> <br>
+
+            <label for="Fidelity Bonus">Fidelity Bonus: </label> 
+            <input type = "text" id="f_bonus"> <br>
+
+            <label for="Player Wage">Player Wage: </label> 
+            <input type = "text" id="p_wage"> <br>
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <p id="profit">Profit Per Unit: </p>
+    </div>
+
+    <script src="js/class.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
 </html>
