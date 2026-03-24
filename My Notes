@@ -1,0 +1,25 @@
+General input: 
+- Wage
+- Fidelity
+
+Resource specific input: 
+- Resource market value price
+- location bonus (maybe we split it to 3 types of bonus?)
+
+What data I neeed:
+- T1 resource required for T2
+- Market value of everything
+- Wage (default 0.134)
+- Fidelity (dafault to 1%)
+
+Kinda not needed because can figure out myself, but this is just good double check
+Reference for formulae: https://app.warera.io/article/68b324c3cd77c02fb499271d
+
+Raw Unit Price Per PP = Sale Price / Required PP
+Manufactured Unit Price Per PP = Sale Price / (Required PP + Required Raw PP)
+
+DAMN there one already exist that im trying to do :<
+https://arcanaera.vercel.app/
+Im going to continue mine anyways because its interesting
+
+
